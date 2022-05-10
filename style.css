@@ -55,7 +55,7 @@ header nav ul li a {
     padding-bottom: 145px;
 }
 
-#header-body h1 {
+.hbir h1 {
     font: 700 42px var(--tit);
     line-height: 49px;
     color: #f7f3ea;
@@ -63,7 +63,7 @@ header nav ul li a {
     margin-top: 145px;
 }
 
-#header-body button {
+.but {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +100,7 @@ header nav ul li a {
     padding-top: 110px;
 }
 
-.servis hr {
+.merkez hr {
     width: 87px;
     height: 4px;
     background-color: #14a58c;
@@ -152,7 +152,7 @@ header nav ul li a {
     background-color: #e7f1f8;
 }
 
-#uc div h1 {
+.basliq {
     font: bold 41px var(--tit);
     letter-spacing: 4px;
     line-height: 30px;
@@ -161,12 +161,13 @@ header nav ul li a {
     padding-top: 120px;
 }
 
-#uc div hr {
+.merkez {
     width: 87px;
     height: 4px;
     background-color: #bdd1df;
     text-align: center;
     margin: 25px auto;
+    border: 0;
 }
 
 #ust {
@@ -230,7 +231,7 @@ header nav ul li a {
     background-color: #bdd1df;
     position: relative;
     margin-top: 30px;
-  
+
 
 
 
@@ -244,5 +245,210 @@ header nav ul li a {
     width: 16px;
     height: 12px;
     color: #ffffff;
-    
+
+}
+
+#dord {
+    padding-bottom: 120px;
+}
+
+.comp hr {
+    background-color: #e5c37f;
+}
+
+.hbir {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.pbir {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.sekil {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.comp {
+    background-color: #ffdd99;
+    padding-bottom: 160px;
+}
+
+.comp ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.comp ul li {
+    display: flex;
+    display: inline;
+    text-align: center;
+
+
+}
+
+.comp ul li a {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #393939;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 10px;
+}
+
+.comp ul li a:hover {
+    background-color: #ebc985;
+    padding: 12px 25px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.0784313725490196);
+}
+
+
+
+.comp ul li a {
+    background-color: #ebc985;
+}
+
+#all {
+    background-color: #fff;
+}
+
+.imc {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 60px;
+
+
+}
+
+.imc img {
+    margin: 30px 0;
+
+
+}
+
+.comp div img p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #393939;
+
+}
+
+.comp button {
+    background-color: #17c2a4;
+    font: 600 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    border-bottom: 4px solid #14a58c;
+
+
+}
+
+/* footer start */
+
+footer {
+    background-color: #3c5499;
+}
+
+.foot {
+    margin-bottom: 110px;
+}
+
+.foot hr {
+    background-color: #273a71;
+}
+
+
+.foot h1 {
+    color: #fff;
+}
+
+.foot p {
+    color: #fff;
+}
+
+
+.foot form input {
+    -ms-flow-from: 600 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+}
+
+.foot form input{
+    width: 414px;
+height: 56px;
+border-radius: 4px;
+background-color: #273a71;
+text-align: center;
+margin: 0 20px 20px 0;
+}
+
+.foot form ::placeholder{
+    font: 400 18px var(--tit);
+line-height: 18px;
+color: #ffffff;
+text-align: left;
+padding: 30px;
+}
+
+.metn{
+    width: 860px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: #273a71;
+    text-align: center;
+}
+
+.foot button {
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5;
+
+
+
+}
+
+footer div form input,
+textarea {
+    background-color: #273a71;
+}
+
+.ling {
+    background-color: #344b8e;
+    padding: 45px 0;
+
+}
+
+.ling ul li {
+    font: 600 24px var(--tit);
+    display: inline;
+    margin: 30px;
+
+}
+
+.ling ul li a {
+
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
 }
