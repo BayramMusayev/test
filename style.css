@@ -393,24 +393,24 @@ footer {
     justify-content: center;
 }
 
-.foot form input{
+.foot form input {
     width: 414px;
-height: 56px;
-border-radius: 4px;
-background-color: #273a71;
-text-align: center;
-margin: 0 20px 20px 0;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #273a71;
+    text-align: center;
+    margin: 0 20px 20px 0;
 }
 
-.foot form ::placeholder{
+.foot form ::placeholder {
     font: 400 18px var(--tit);
-line-height: 18px;
-color: #ffffff;
-text-align: left;
-padding: 30px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: left;
+    padding: 30px;
 }
 
-.metn{
+.metn {
     width: 860px;
     height: 200px;
     border-radius: 4px;
